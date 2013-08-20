@@ -21,11 +21,13 @@ See some more stuff about security implications below.
 
 1. Put `autoenv.fish` somewhere handy. I like to put it in `~/.config/fish/autoenv.fish`.
 2. Source the file in your `config.fish`:
+
 ```fish
 # load autoenv.fish
 . ~/.config/fish/autoenv.fish
 ```
-3. If you want it to take effect for your current terminal sessions, reload your config.fish by typing `. path/to/your/config.fish` in every terminal window. If you're using [iTerm2], typing `⌘⇧I` is handy for broadcasting what you type to every open terminal.
+
+If you want it to take effect for your current terminal sessions, reload your config.fish by typing `. path/to/your/config.fish` in every terminal window. If you're using [iTerm2], typing `⌘⇧I` is handy for broadcasting what you type to every open terminal.
 
 
 ## Ssage
