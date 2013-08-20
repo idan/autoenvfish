@@ -17,7 +17,7 @@ set -gx AWS_SECRET_ACCESS_KEY "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"
 
 See some more stuff about security implications below.
 
-## installation
+## Installation
 
 1. Put `autoenv.fish` somewhere handy. I like to put it in `~/.config/fish/autoenv.fish`.
 2. Source the file in your `config.fish`:
@@ -30,7 +30,7 @@ See some more stuff about security implications below.
 If you want it to take effect for your current terminal sessions, reload your config.fish by typing `. path/to/your/config.fish` in every terminal window. If you're using [iTerm2], typing `⌘⇧I` is handy for broadcasting what you type to every open terminal.
 
 
-## Ssage
+## Usage
 
 Create a `.env.fish` file somewhere. Fill it up with whatever valid fish script you like. It'll get sourced whenever you are in the directory, and you'll see a message telling you so.
 
