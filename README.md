@@ -1,6 +1,6 @@
 # AutoenvFish
 
-Directory-based environments for fish, inspired by Kenneth Reitz's [autoenv]. If you miss that from your bash-using days, then miss it no longer.
+Directory-based environments for [fish shell], inspired by Kenneth Reitz's [autoenv]. If you miss that from your bash-using days, then miss it no longer.
 
 ## What is it?
 
@@ -40,5 +40,6 @@ AutoenvFish won't bat an eyelash if your `.env.fish` includes a line like `sudo 
 One of the things which [autoenv] does nicely is hashing of the executed files and a warning every time it changes. I'd like to add that in a future release.
 
 
+[fish shell]: http://fishshell.com/
 [autoenv]: https://github.com/kennethreitz/autoenv
 [iterm2]: http://www.iterm2.com
