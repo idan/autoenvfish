@@ -38,6 +38,6 @@ end
 function _source_envfish --on-variable AUTOENVFISH
     if [ -f "$AUTOENVFISH" ]
         echo "loading $AUTOENVFISH"
-        . $AUTOENVFISH
+        source $AUTOENVFISH
     end
 end
